@@ -112,7 +112,7 @@
 </div>	
 <!-- Home --><!About Page>
 <div data-role="page" id="page2" data-add-back-btn="true">
-    <div data-theme="a" data-role="header">
+    <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
             Info Page
         </h3>
@@ -126,12 +126,12 @@
                 About
             </li>
             <li data-theme="a">
-                <a href="#page1" data-transition="slidefade">
+                <a href="#page7" data-transition="slidefade">
                     Credits
                 </a>
             </li>
             <li data-theme="a">
-                <a href="#author" data-transition="slidefade">
+                <a href="#page7" data-transition="slidefade">
                     Author
                 </a>
             </li>
@@ -156,34 +156,57 @@
                 </a>
             </li>
         </ul>
-       <div data-theme="b" data-role="footer" data-position="fixed">        
-       <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="home">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="GoldApp/index.html" data-transition="fade" data-theme="e" data-icon="star">
-                        Gold APP
-                    </a>
-                </li>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="b" data-icon="info">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="Pageadditem.html" data-ajax="false" data-transition="fade" data-theme="a" data-icon="Plus">
-                        Add Plan
-                    </a>
-                </li>
-            </ul>
-        </div>
+       <div data-theme="b" data-role="footer" data-position="fixed" data-add-back-btn="true">
+        <h3>
+            Info
+        </h3>
+       </div>
     </div>
 </div>
-          <!-- JavaScript under here -->
+        
+                 
+ <!-- Home -->
+<div data-role="page" id="page7" data-add-back-btn="true" >
+    <div data-theme="b" data-role="header" >
+        <h3>
+            Author Info
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="collapsible-set">
+            <div data-theme="b" data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Name
+                </h3>
+                <p>Matthew Darke</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set">
+            <div data-theme="b" data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Likes
+                </h3>
+                <p>Take family on vacation and travel</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set">
+            <div data-theme="b" data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Education
+                </h3>
+                <p>Going to Full Sail University for Bachelor of science degree in Mobile development</p>
+            </div>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3>
+            Info
+        </h3>
+    </div>
+</div>          
+</div>          
+           
+           <!-- JavaScript under here -->
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
