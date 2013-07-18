@@ -8,7 +8,7 @@ h1 {
 	border:#0b03a0;
 	font-size: 18px;
 	text-align:right;
-	color:rgba(34,10,150,1);
+	color:rgba(253,167,38,1);
 	 
 }
 
@@ -43,7 +43,7 @@ h2,h3 {
 	font-size: 14px;
 	line-height: 1.4em;
 	
-	color: #06167e
+	color: #ffa81c
 }
 form fieldset ul input {
     width: 180px;
