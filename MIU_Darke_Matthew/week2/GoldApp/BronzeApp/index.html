@@ -1,4 +1,4 @@
- <!doctype html>  
+<!doctype html>  
 <html lang="en">
 <head>
 
@@ -86,24 +86,24 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#Home" data-transition="fade" data-theme="a" data-icon="home">
+                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="home">
                         Home
                     </a>
                 </li>
                 
                 <li>
-                    <a href="GoldApp/index.html" data-transition="fade" data-theme="b" data-icon="info">
+                    <a href="GoldApp/index.html" data-transition="fade" data-theme="a" data-icon="info">
                         News
                     </a>
                 </li>
                 <li>
-                    <a href="#page2" data-transition="fade" data-theme="b" data-icon="info">
+                    <a href="#page2" data-transition="fade" data-theme="a" data-icon="info">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="Pageadditem.html"data-ajax="false" data-transition="fade" data-theme="a" data-icon="plus">
-                        Add Plan
+                    <a href="#page-S"data-ajax="false" data-transition="fade" data-theme="a" data-icon="plus">
+                        Suggest
                     </a>
                 </li>
             </ul>
@@ -126,18 +126,13 @@
                 About
             </li>
             <li data-theme="a">
-                <a href="#page7" data-transition="slidefade">
+                <a href="#pagecredit" data-transition="slidefade">
                     Credits
                 </a>
             </li>
             <li data-theme="a">
                 <a href="#page7" data-transition="slidefade">
                     Author
-                </a>
-            </li>
-            <li data-theme="a">
-                <a href="#page1" data-transition="slidefade">
-                    Bronze App
                 </a>
             </li>
             <li data-theme="a">
@@ -156,7 +151,7 @@
                 </a>
             </li>
         </ul>
-       <div data-theme="b" data-role="footer" data-position="fixed" data-add-back-btn="true">
+       <div data-theme="a" data-role="footer" data-position="fixed" data-add-back-btn="true">
         <h3>
             Info
         </h3>
@@ -165,9 +160,9 @@
 </div>
         
                  
- <!-- Home -->
+ <!-- Author Info -->
 <div data-role="page" id="page7" data-add-back-btn="true" >
-    <div data-theme="b" data-role="header" >
+    <div data-theme="a" data-role="header" >
         <h3>
             Author Info
         </h3>
@@ -198,13 +193,195 @@
             </div>
         </div>
     </div>
-    <div data-theme="b" data-role="footer" data-position="fixed">
+    <div data-theme="a" data-role="footer" data-position="fixed">
         <h3>
             Info
         </h3>
     </div>
 </div>          
 </div>          
+ <!-- Suggestions -->
+<div data-role="page" id="page-S">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Suggestions
+        </h3>
+    </div>
+    <div data-role="content"><!__________________________________________________________________>
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <li data-theme="a">
+                <a href="#page1camp" data-transition="slide">
+                    <img src="images/dreamstimecomp_24277331camping.png" class="ui-li-has-thumb" />
+                    Camping Trips
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page1" data-transition="slide">
+                    <img src="images/dreamstimecomp_26626795Family.png" class="ui-li-has-thumb" />  
+                    Family Vacations
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page1" data-transition="slide">
+                    <img src="images/dreamstimecomp_29229797Romantic.png" class="ui-li-has-thumb" />                    
+                    Romantic Getaways
+                </a>
+            </li>
+        </ul>
+    </div>
+ <div data-theme="a" data-role="footer" data-position="fixed">
+     <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="GoldApp/index.html" data-transition="fade" data-theme="a" data-icon="info">
+                        News
+                    </a>
+                </li>
+                <li>
+                    <a href="#page2" data-transition="fade" data-theme="a" data-icon="info">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="Pageadditem.html"data-ajax="false" data-transition="fade" data-theme="a" data-icon="plus">
+                        Suggest
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>	
+ 
+<!-- camping ideas -->
+<div data-role="page" id="page1camp" data-add-back-btn="true">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Camping Ideas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+            <img src="images/dreamstimecomp_156592lake.png" class="ui-li-has-thumb ui-shadow" />
+                   <p>Go lake camping</p>
+                   <p></p>
+            </div>
+            <div class="ui-block-b">
+            <img src="images/dreamstimecomp_1079707yosemite.png" class="ui-li-has-thumb ui-shadow" />
+                   <p>Camp at Yosemite</p>
+                   <p></p>
+            </div>
+            <div class="ui-block-a">
+            <img src="images/dreamstimecomp_11285980desert.png" class="ui-li-has-thumb ui-shadow" />
+                   <p> Go desert camping</p>
+                   <p></p>
+            </div>
+            <div class="ui-block-b">
+            <img src="images/dreamstimecomp_29988366beach.png" class="ui-li-has-thumb ui-shadow" />
+                   <p>Camp at the beach</p>
+                   <h4></h4>
+            </div>
+        </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            
+        </h3>
+    </div>
+</div> 
+<!-- Home -->
+<div data-role="page" id="pagecredit" data-add-back-btn="true">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Credits
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Family beach
+                </h3>
+                <p>Happy family walking on sea beach </p>
+                <p>By Olesiabilkei from dreamstime.com</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Camping night
+                </h3>
+                <p>Camping night couple cooking by campfire</p>
+                <p>By Candybox from dreamstime.com</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Business travel
+                </h3>
+                <p>Business travel</p>
+                <p>By Suphakit73 from dreamstime.com</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Romantic
+                </h3>
+                <p>Romantic getaway and escape to a tropical beach</p>
+                <p>By Skypixel from dreamstime.com</p>            
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Lake
+                </h3>
+                <p>Camping By Jeu from dreamstime.com</p>            
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Desert
+                </h3>
+                <p>Camping tent in the Mojavie desert</p>
+                <p>By Jbatt from dreamstime.com</p>           
+             </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Yosemite
+                </h3>
+                <p>El Capitan and lower falls</p>
+                <p>By Tashka from dreamstime.com</p>            
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Beach camp
+                </h3>
+                <p>Beach camping</p>
+                <p>By Between11 from dreamstime.com</p>            
+            </div>
+        </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>Images dreamstime.com
+        </h3>
+    </div>
+</div> 
+ 
+ 
            
            <!-- JavaScript under here -->
 
@@ -213,6 +390,10 @@
 <script src="js/main.js" type="text/javaScript"></script>
 </body>
 </html>
+
+
+
+
 
 
 
