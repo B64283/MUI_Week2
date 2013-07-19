@@ -1,120 +1,16 @@
-text-align: center;
 /* Matthew Darke
    VFW Project 4
    1306 style.css
 */
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}
+h1 {
+	border:#0b03a0;
+	font-size: 18px;
+	text-align:right;
+	color:rgba(253,167,38,1);
+	 
+}
 
 }
 a:link {
@@ -129,16 +25,9 @@ a:link {
 	width:33px ;
 	
 }
-P {
-	text-align: left;
-	text-fill-color: inherit;
-	padding-top: 40px;
-	padding-left: 99px;
-	margin: 10px;
-	font-size: medium;
-	font-style: italic;
-	
-}
+
+
+
 
 legend {
 	font-size: 40;
@@ -146,13 +35,15 @@ legend {
 	font-weight: bold;
     border: bold;
 }
-
-h3 {
+body {
+    background-image: -webkit-linear-gradient(#c1c1c1 0%, #c7eeff 28.48%)
+}
+h2,h3 {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 1.4em;
 	
-	color: #ffffff
+	color: #ffa81c
 }
 form fieldset ul input {
     width: 180px;
@@ -168,9 +59,6 @@ li {
 	
 	
 }
-body {
-	background-color: #8fa8cb
-}
 input[type="submit"] {
 	margin: 50px;
 	margin-top: 5px;
@@ -183,15 +71,6 @@ input[type="submit"] {
 	
 	
 }
-	
-	
-
-
-
-
-
-
-
 ul.errors {
 	text-fill-color:  #f50707;
 	padding: 10px;
@@ -203,14 +82,14 @@ ul.errors {
 }
 	
 label {
-	color: rgba(88,86,86,1);
+	color: rgba(255,255,255,1);
 	font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
     text-align: left	
 }	
 fieldset {
-	background-color: #07a0f9;
+	background-image:-webkit-linear-gradient(#a2f0fc 0%, #e3e3e3 65.56%);
 	border-color: #1505a0;
 	padding:20px
 	}	
@@ -231,9 +110,8 @@ ul {
 input[type="search"] {
     width:280px;
     height:auto;
-    text-fill-color: Grey;
     
 } 
 title {
-
+text-align: center;
 		
